@@ -1,4 +1,7 @@
 let ip = document.getElementById("fname")
-ip.addEventlistener("blur", () => {
-	ip.value = ip.value.touppercase ()
+
+
+
+ip.addEventListener("blur", () => {
+	ip.value = ip.value.toUpperCase ()
 })
